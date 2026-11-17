@@ -17,7 +17,7 @@ ABiSwQVwhkLnMgLjCAOIy2SBAgMFcIfMcDCBAAsAGxDMZENiAEGAAhGzMA5hnMgLM/QSAeAAbJBBg8yz
 <main class="main">
   <div class="topbar">
     <div><div class="eyebrow">Seu espaço de estudos</div><h1 id="pageTitle">Visão geral</h1></div>
-    <div class="topbar-right"><button class="btn secondary mobile-menu" onclick="document.getElementById('sidebar').classList.toggle('open')">☰</button><button class="profile-chip" onclick="openProfile()"><span class="profile-avatar" id="profileInitial">I</span><span><b id="profileChipName">Isa</b><small>meu espaço</small></span><span class="profile-edit">✎</span></button><div class="date-chip" id="todayDate"></div></div>
+    <div class="topbar-right"><button class="btn secondary mobile-menu" onclick="document.getElementById('sidebar').classList.toggle('open')">☰</button><button class="profile-chip" onclick="openProfile()"><span class="profile-avatar" id="profileInitial">I</span><span><b id="profileChipName">Isa</b><small>meu espaço</small></span><span class="profile-edit">✎</span></button><button class="btn secondary" id="installAppBtn" type="button" hidden>Instalar app</button><div class="date-chip" id="todayDate"></div></div>
   </div>
 
   <section class="page active" id="dashboard">
