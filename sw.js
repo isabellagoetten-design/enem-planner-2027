@@ -1,4 +1,4 @@
-const CACHE_NAME='enem-planner-2027-v6';
+const CACHE_NAME='enem-planner-2027-v7';
 const APP_SHELL=['./','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png','./planner-data/part-01.txt','./planner-data/part-02.txt','./planner-data/part-03.txt','./planner-data/part-04.txt','./planner-data/part-05.txt','./planner-data/part-06.txt','./planner-data/part-07.txt','./planner-data/part-08.txt','./planner-data/part-09.txt','./planner-data/part-10.txt','./planner-data/part-11.txt','./planner-data/part-12.txt','./planner-data/part-13.txt','./planner-data/part-14.txt','./planner-data/part-15.txt','./planner-data/part-16.txt'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(APP_SHELL)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE_NAME).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
