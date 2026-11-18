@@ -219,10 +219,9 @@ input[type="checkbox"]:focus-visible{outline:3px solid #F8D6E8;outline-offset:2p
 @media(max-width:700px){.content-tools{grid-template-columns:1fr}.content-subject-progress{grid-template-columns:repeat(2,minmax(0,1fr))}.content-topic{grid-template-columns:22px minmax(0,1fr)}.content-topic select{grid-column:2;max-width:100%}.content-link{grid-column:2}.content-panel-head{align-items:flex-start;flex-direction:column}}
 
 
-/* Corrige apenas a ilustração do banner; preserva fontes e identidade visual original */
-.banner-logo img{display:none!important}
-.banner-logo::after{content:'';display:block;width:150px;height:150px;background:url('./icons/icon-512.png') center/contain no-repeat}
-@media(max-width:700px){.banner-logo::after{width:105px;height:120px}}
+/* Ilustração de capa fornecida pela usuária */
+.banner-art.banner-logo img{display:none!important}
+.banner-art.banner-logo{background:url('./icons/icon-512.png') center/contain no-repeat}
 </style>
 <link rel="manifest" href="./manifest.webmanifest">
 <meta name="theme-color" content="#7A2948">
