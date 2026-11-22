@@ -222,28 +222,20 @@ input[type="checkbox"]:focus-visible{outline:3px solid #F8D6E8;outline-offset:2p
 html,body{color-scheme:light!important;background:#FFFCF7!important}
 body{background:#FFFCF7!important;color:#6F5962!important}
 .sidebar{background:#FFF8FB!important}
-.brand{display:flex!important;align-items:center!important;gap:11px!important}
-.brand>div:last-child{display:block!important;visibility:visible!important;opacity:1!important;min-width:0!important}
-.brand strong{display:block!important;color:#D95F8B!important;font-family:Georgia,serif!important;font-size:16px!important}
-.brand small{display:block!important;color:#A27F91!important}
-.logo{overflow:hidden!important;background-color:#F9DDE5!important;background-image:url('./icons/icon-512.png')!important;background-position:center!important;background-repeat:no-repeat!important;background-size:contain!important}
-.logo img{display:none!important}
-.nav button.active{color:#D95F8B!important}
-h1,.section-head h2,.stat-value{color:#D95F8B!important}
-.banner-copy h2{font-family:Impact,"Arial Black","Helvetica Neue",sans-serif!important;font-weight:900!important;letter-spacing:-1.2px!important;color:#D95F8B!important}
-.banner-copy h2 em{color:#D4AC28!important}
-.banner-kicker{color:#D95F8B!important}
+.brand{display:flex;align-items:center;gap:11px}
+.brand>div:last-child{display:block;visibility:visible;opacity:1;min-width:0}
+.brand strong{display:block;color:#D95F8B;font-family:Georgia,serif;font-size:16px}
+.brand small{display:block;color:#A27F91}
+.logo{width:54px;height:54px;flex:0 0 54px;overflow:visible;background:transparent;border:0;box-shadow:none}
+.logo img{display:block;width:100%;height:100%;object-fit:contain}
+.nav button.active{color:#D95F8B}
+h1,.section-head h2,.stat-value{color:#D95F8B}
+.banner-kicker{color:#D95F8B}
 
-/* Evita tema escuro automático e recupera o símbolo da barra lateral */
-:root,html,body{color-scheme:only light!important}
-html,body{background:#FFFCF7!important}
-body{background-color:#FFFCF7!important}
-.sidebar{background:#FFF8FB!important}
-.logo{background:#F9DDE5 url('/enem-planner-2027/icons/icon-512.png') center/contain no-repeat!important}
-.logo img{display:none!important}
-</style>
+/* O título mantém a tipografia editorial já existente no projeto. */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          </style>
 <link rel="manifest" href="./manifest.webmanifest">
-<meta name="theme-color" content="#7A2948">
+                                           
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
